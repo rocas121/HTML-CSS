@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'MCfont';
+    src: url(Font/MinecraftRegular-Bmg3.ttf);
+
+
+/* -------------------------------------BODY------------------------- */
+}
+body{
+    font-family: 'MCfont', sans-serif;
+    
+    background-image:url(image/EndBackground.webp);
+    margin: 50px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #FFFFFF;
+    
+    a{ 
+    text-decoration: none;
+    color: white;
+    }
+}
+
+/* -----------------TITLE-------------------- */
+#title{
+    display: flex;
+    justify-content: center;
+ font-size: xx-large;
+}
+
+
+/* -------------------------NAVI-------------------------- */
+#navi{
+    position: relative;
+    border: 10px rgb(207, 207, 207) ridge;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url(image/PortalGif.gif);
+    font-size: x-large;
+    position: sticky;
+    top: 0;   
+    a{ 
+        text-decoration: none;
+        color: #ffe837;
+    }
+}
+    #home{
+        border: 10px rgb(207, 207, 207) ridge;
+        background-image:linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)),url(image/stonebackground.jpg);
+        padding: 20px;
+        border-width: 5px;
+    }
+    #whatn{
+        border: 10px rgb(207, 207, 207) ridge;
+        background-image:linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)),url(image/stonebackground.jpg);
+        padding: 20px;
+        border-width: 5px;
+    }
+   
+    #Whon{
+        border: 10px rgb(207, 207, 207) ridge;
+        background-image:linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)),url(image/stonebackground.jpg);
+        padding: 20px;
+        border-width: 5px;
+    }
+  #contact{
+        border: 10px rgb(207, 207, 207) ridge;
+        background-image:linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)),url(image/stonebackground.jpg);
+        padding: 20px;
+        border-width: 5px;
+    }
+    @media (max-width:800px){
+        navi{
+            flex-direction: column;
+        }
+    }
+    
+/* ----------------------------WELCOME------------------------------------------------------------ */
+
+#Welcome{
+    border: 10px rgb(207, 207, 207) ridge;
+    display: flex;        
+    justify-content: space-evenly;
+    align-items: center;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url(image/wallpaper_minecraft_java_edition_1920x1080.png);
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: center;
+    margin: 50px;
+    }
+    #bvn{
+        width: 500px;
+        font-size:100%;
+        margin:20px;
+    }
+    /* ----------JOIN_NOW----------- */
+    #Start{
+        background-color: #4dc665;
+        border: 10px rgb(207, 207, 207) ridge;
+        color: #FFFFFF;
+        text-align: center;
+        font-size: 28px;
+        padding: 20px;
+        width: 200px;
+        transition: all 0.5s;
+        cursor: pointer;
+        margin: 5px;
+    }
+    @media (max-width:800px){
+        #Welcome{
+            flex-direction: column;
+        }
+    }
+    
+
+
+/* -----------------HOW_TO_JOIN------------------------------------ */
+#join{
+border: 10px rgb(207, 207, 207) ridge;
+display: flex;
+justify-content: space-around;
+align-items: center;
+background-image:linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url(image/wallpaper_minecraft_island_1920x1080.png);
+height: 100vh;
+background-position: center;
+margin: 50px;
+}
+#Login{
+    width: 500px;
+    font-size: 100%;
+    margin: 20px;
+}
+#livechat{
+    border: 10px rgb(207, 207, 207) ridge;
+}
+
+@media (max-width:800px){
+    #join{
+        flex-direction: column;
+    }
+    #Login{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #livechat{
+        width: 50%;
+    }
+}
+
+
+/* -------------------WHats_Minepal------------------------------------------ */
+#whatis{
+    border: 10px rgb(207, 207, 207) ridge;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url(image/stonebackground.jpg);
+    height: 100vh;
+    background-position: center;
+    margin: 50px;
+}
+#what{
+    margin: 20px;
+}
+
+@media screen and (max-width:800px) {
+    #whatis{
+      flex-direction: column;
+    }
+    #what{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}    
+/* ------------------------WHO------------------------------------ */
+#whod{
+    border: 10px rgb(207, 207, 207) ridge;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url(image/wallpaper_minecraft_default_skins_1920x1080.png);
+    height: 100vh;
+    background-position: center;
+    margin: 50px;
+
+}
+#whotext{
+    width: 500px;
+    font-size: 150%;
+    margin: 20px;
+}
+
+@media screen and (max-width:800px) {
+    #whod{
+      flex-direction: column;
+    }
+    #whotext{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/* -----------------------BUSINESS----------------- */
+#busform{
+    border: 10px rgb(207, 207, 207) ridge;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url(image/Dirtback.jpg);
+    width: 20%;
+}
+#form{
+    margin: 20px;
+}
+@media screen and (max-width:800px) {
+    #busform{
+      flex-direction: column;
+    }
+    #form{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #busform{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+}
+/* -----------------------MOBILE------------------ */
